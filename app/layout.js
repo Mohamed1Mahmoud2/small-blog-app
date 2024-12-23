@@ -68,15 +68,15 @@ export default function RootLayout({ children }) {
           </div>
 
           <div style={divStyle}>
-            <Link href={'/'}>
+            <Link href={'/posts/front-end-posts'}>
               <p style={spItem}>Front-End</p>
             </Link>
 
-            <Link href={'/'}>
+            <Link href={'/posts/food-posts'}>
               <p style={spItem}>Food</p>
             </Link>
 
-            <Link href={'/'}>
+            <Link href={'/posts/sport-posts'}>
               <p style={spItem}>Sport</p>
             </Link>
           </div>
